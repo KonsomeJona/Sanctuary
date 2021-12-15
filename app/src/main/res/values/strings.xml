@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name" translatable="false">Sanctuary</string>
+    <string name="app_privacyPolicyUrl" translatable="false">https://konsomejona.github.io/privacy_policy.html</string>
+    <string name="app_author" translatable="false">Jonathan Odul</string>
+
+    <string name="intro_welcome">Welcome to Sanctuary</string>
+    <string name="intro_description">Sanctuary is a place of safety where applications run in a complete separate profile and environment.
+        \n\nSee Sanctuary as having a second device, a sandbox where other or same applications from your main profile are also running but using different accounts, networks, settings and data, thus allowing you to:
+        \n\n• Improve privacy protection
+        \n• Run a second instance of an application with different account, settings or network (E.g. VPN)
+        \n• Hide and lock access to applications from people around you
+        \n• Temporarily disable applications and block their background behaviors and much more…
+        \n\nBy continuing, you authorize Sanctuary to create a work profile and becomes its profile owner. We guarantee that no data is being collected or monitored. For more information, read our privacy policy.
+        \n\nPress the next button to setup the profile…
+    </string>
+
+    <string name="intro_somethingWrong_title">Oops! Something went wrong</string>
+    <string name="intro_somethingWrong_message">Seems like you had some troubles setting up Sanctuary. Try again and if the problem keep occurring or you got an error message during the profile provisioning,
+    please refer to our online troubleshooting guide.</string>
+    <string name="intro_somethingWrong_troubleshooting">Open troubleshooting guide</string>
+    <string name="intro_somethingWrong_tryAgain">Try again</string>
+
+    <string name="intro_alreadyProvisioned_title">Sanctuary already setup</string>
+    <string name="intro_alreadyProvisioned_message">It seems like Sanctuary is already setup and running.
+        \n\nTo use Sanctuary, please open the application from the work profile (marked with a briefcase icon).
+        \n\nYou can now safely uninstall Sanctuary application from your personal profile as its sole purpose was to build and setup your work profile. This will not affect the Sanctuary application from your work profile.
+        \n\nTo uninstall Sanctuary from your personal profile, press the uninstall icon.
+        \n\nIf you wish to rebuild Sanctuary again, press the next button.</string>
+    <string name="intro_alreadyProvisioned_uninstall">Uninstall Sanctuary</string>
+
+    <string name="provisioning">Sanctuary is now being setup. Please wait…</string>
+
+    <string name="setup_slide1_title">Sanctuary successfully setup!</string>
+    <string name="setup_slide1_description">Applications inside Sanctuary (work profile) will be marked with a briefcase icon. These applications can neither see nor access applications or data from your personal profile and vice versa.
+        \n\nTo install new applications inside Sanctuary, you must use Google Play Store application from Sanctuary (your work profile marked with a briefcase icon).
+        Applications installed from the Sanctuary\'s Google Play Store will only be available inside Sanctuary and not from your personal profile.
+        \n\nSanctuary can also have its own password, different from your device, in order to unlock and access your applications from this profile.</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_applications">Applications</string>
+    <string name="menu_restrictions">Restrictions</string>
+    <string name="menu_systemApplications">Enable System Applications</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_privacyPolicy">Privacy Policy</string>
+    <string name="menu_about">About</string>
+
+    <string name="home_password_required">SANCTUARY ACCESS PASSWORD NOT SET
+        \n\nIt is highly recommended to set a password to secure the access to applications inside Sanctuary.</string>
+    <string name="home_password_set">Set Sanctuary access password</string>
+    <string name="home_lock">Hide all applications\nand lock Sanctuary</string>
+    <string name="home_locked">Sanctuary is now locked and applications are hidden.</string>
+    <string name="home_unlocked">Sanctuary and applications are now unlocked.</string>
+    <string name="home_lock_dialog_title">Locking Sanctuary</string>
+    <string name="home_lock_dialog_message">All your applications inside Sanctuary (marked with a briefcase icon) will be hidden so nobody can neither see nor access those.
+    If a password is set for Sanctuary, it will be required in order to unlock and make your applications visible and accessible again.
+    \n\nDo you want to lock Sanctuary?</string>
+
+    <string name="application_header_name">Application</string>
+    <string name="application_header_visible">Visible</string>
+    <string name="application_add">Add a new application</string>
+    <string name="application_dialog_changeApplicationHiddenState_title">Hide Application</string>
+    <string name="application_dialog_changeApplicationHiddenState_message">The application will now be hidden and will no longer be visible from your home screen.
+    Hidden application will also be disabled and will no longer be able to display notifications or process tasks in the background.
+    You can reverse this state anytime you like.
+    \n\nDo you want to hide this application?</string>
+    <string name="application_notPermitted">To disable Chrome, please proceed from Sanctuary\'s setting menu</string>
+    <string name="application_dialog_addApplication_title">Add a new application</string>
+    <string name="application_dialog_addApplication_message">Managed Google Play will now open and allow you to install applications to Sanctuary only.
+    Applications installed from the managed Google Play will only be available from Sanctuary (work profile) and will not appear on your personal profile.
+    \n\nWould you like to continue and open managed Google Play?</string>
+    <string name="application_googlePlayNotFound">Could not open Google Play. Is it hidden or disabled?</string>
+
+    <string name="systemApplication_header_name">System Application</string>
+    <string name="systemApplication_header_enabled">Enabled</string>
+    <string name="systemApplication_dialog_enableSystemApplication_title">Enable System Application</string>
+    <string name="systemApplication_dialog_enableSystemApplication_message">You are going to enable and copy this system application to Sanctuary.
+    Once enabled, you will be able to use this system application from Sanctuary using a different configuration. You will not be able to disable and remove a system application once enabled.
+        \n\nDo you want to enable this system application?
+    </string>
+
+    <string name="restriction_header_name">Restriction</string>
+    <string name="restriction_header_enabled">Enabled</string>
+
+    <string name="restriction_screenCaptureDisabled_name">Screen Capture Disabled</string>
+    <string name="restriction_screenCaptureDisabled_description">Disable screenshot feature when using applications inside Sanctuary.</string>
+    <string name="restriction_cameraDisabled_name">Camera Disabled</string>
+    <string name="restriction_cameraDisabled_description">Camera is disabled and unusable from applications inside Sanctuary.</string>
+    <string name="restriction_disallowCrossProfileCopyPaste_name">Disallow Cross Profile Copy Paste</string>
+    <string name="restriction_disallowCrossProfileCopyPaste_description">Clipboard is not shared between applications in Sanctuary and in your personal profile.</string>
+    <string name="restriction_disallowShareLocation_name">Disallow Share Location</string>
+    <string name="restriction_disallowShareLocation_description">Applications inside Sanctuary are not allowed to access your current location.</string>
+    <string name="restriction_disallowUnmuteMicrophone_name">Disallow Unmute Microphone</string>
+    <string name="restriction_disallowUnmuteMicrophone_description">Applications inside Sanctuary are not able to access your microphone and record audio.</string>
+    <string name="restriction_disallowDebuggingFeatures_name">Disallow Debugging Features</string>
+    <string name="restriction_disallowDebuggingFeatures_description">Sanctuary and its data are not accessible via debugging features or ADB using developer mode.</string>
+    <string name="restriction_disallowInstallApps_name">Disallow Install Applications</string>
+    <string name="restriction_disallowInstallApps_description">No applications can be installed inside Sanctuary.</string>
+    <string name="restriction_disallowUninstallApps_name">Disallow Uninstall Applications</string>
+    <string name="restriction_disallowUninstallApps_description">No applications can be uninstalled inside Sanctuary.</string>
+
+    <string name="preference_category_general">General</string>
+    <string name="preference_lockNotification_title">Show Lock Sanctuary notification</string>
+    <string name="preference_lockNotification_summary">Display an ongoing notification in your status bar allowing you to quickly lock Sanctuary and hide applications.</string>
+    <string name="preference_enableChrome_title">Disable Google Chrome</string>
+    <string name="preference_enableChrome_summary">Disable and hide Chrome from Sanctuary. This might cause Sanctuary to become unstable and crash. Please proceed with caution.</string>
+
+    <string name="preference_category_password">Password</string>
+    <string name="preference_changePassword_title">Change Sanctuary\'s password</string>
+    <string name="preference_clearPassword_title">Clear/Remove Sanctuary\'s password</string>
+
+    <string name="preference_category_reset">Reset options</string>
+    <string name="preference_wipeProfile_title">Wipe and Destroy Sanctuary</string>
+    <string name="preference_wipe_dialog_title">Wipe Sanctuary</string>
+    <string name="preference_wipe_dialog_message">Sanctuary will be wiped and destroyed. All applications and data inside Sanctuary are also be removed and deleted.\n\nDo you want to continue?</string>
+
+    <string name="notification_channel_name">General</string>
+    <string name="notification_lock_title">Lock Sanctuary</string>
+    <string name="notification_lock_text">Tap to lock Sanctuary and hide all applications.</string>
+
+    <string name="reset_password_success">Sanctuary\'s password has been cleared and reset.</string>
+    <string name="reset_password_error">Could not reset Sanctuary\'s password.</string>
+
+    <string name="about_version">Version</string>
+    <string name="about_website">https://github.com/KonsomeJona/</string>
+    <string name="about_privacyPolicy">Privacy Policy</string>
+    <string name="about_privacyPolicy_message">No browser found in the profile.\nView our privacy policy at the following URL:\n%1$s</string>
+    <string name="about_footnote">
+        For any problem or suggestion:\nhttps://github.com/KonsomeJona/Sanctuary
+        \n\nApplication\'s icon made by Freepik from Flaticon is licensed by CC 3.0 BY.</string>
+
+    <string name="dialog_doNotShowAgain">Do not show again</string>
+    <string name="unknown">Unknown</string>
+</resources>

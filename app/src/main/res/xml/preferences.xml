@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/preference_category_general"
+        app:iconSpaceReserved="false" />
+
+    <SwitchPreferenceCompat
+        app:key="show_lock_notification"
+        app:title="@string/preference_lockNotification_title"
+        app:summary="@string/preference_lockNotification_summary"
+        app:iconSpaceReserved="false"
+        />
+
+    <SwitchPreferenceCompat
+        app:key="enable_chrome"
+        app:title="@string/preference_enableChrome_title"
+        app:summary="@string/preference_enableChrome_summary"
+        app:iconSpaceReserved="false"
+        />
+
+    <PreferenceCategory android:title="@string/preference_category_password"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        app:key="change_password"
+        app:title="@string/preference_changePassword_title"
+        app:iconSpaceReserved="false"
+        />
+
+    <Preference
+        app:key="clear_password"
+        app:title="@string/preference_clearPassword_title"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceCategory android:title="@string/preference_category_reset"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        app:key="wipe_profile"
+        app:title="@string/preference_wipeProfile_title"
+        app:iconSpaceReserved="false" />
+
+</androidx.preference.PreferenceScreen>

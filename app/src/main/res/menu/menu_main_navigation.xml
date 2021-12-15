@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/menu_home"
+        android:icon="@drawable/baseline_home_24"
+        />
+
+    <item
+        android:id="@+id/action_applications"
+        android:title="@string/menu_applications"
+        android:icon="@drawable/baseline_visibility_24"
+        />
+
+    <item
+        android:id="@+id/action_restrictions"
+        android:title="@string/menu_restrictions"
+        android:icon="@drawable/baseline_lock_24"
+        />
+
+    <!-- Dummy item to disable/uncheck all others -->
+    <item
+        android:title=""
+        android:visible="false"
+        />
+</menu>
